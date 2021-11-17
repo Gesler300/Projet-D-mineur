@@ -17,3 +17,8 @@ gènère une grille avec l lignes et c collones remplie de 0
 """
 
 retourner grille
+
+
+
+
+Salut les potes  :OOOOOO
