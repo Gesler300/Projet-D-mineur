@@ -499,8 +499,6 @@ def action_joueur2(m,l,c):
     return ma
 
 def VerifBombe():
-	"""Cette fonction vérifie si on a cliqué sur une bombe pour ensuite enclencher le mécanisme de défaite si c'est le cas.
-    """
     VerificationB = 0
     for i in range(len(pg)):
         if VerificationB == 1:
@@ -515,8 +513,6 @@ def VerifBombe():
     return VerificationB
 
 def CheckWin ():
-	"""Cette fonction vérifie si on a révélé toute les cases sauf les bombes pour ensuite enclencher le mécanisme de victoire si c'est le cas.
-    """
     for i in range(len(pg)):
         for j in range (len(pg[i])):
             if MI.GrilleCheckWin[i][j] == 1:
@@ -527,8 +523,6 @@ def CheckWin ():
                     MI.Victoire += 1
 
 def f(c,l):
-	"""Cette fonction permet de placer ou retirer un drapeau.
-    """
     if MI.GrilleCheckDrapeau[l][c] == 1:
         MI.m = action_joueur2(MI.m,l,c)
         MI.EnleverDrapeau(l,c)
@@ -546,8 +540,6 @@ def f(c,l):
             MI.GrilleCheckDrapeau[l][c] += 1
 
 def r(c,l):
-	"""Cette fonction permet de révéler une case.
-    """
     if pg[l][c] != "?" and pg[l][c] != "F":
         print("Vous ne pouvez pas révéler une case déjà révélée.")
     else: 
