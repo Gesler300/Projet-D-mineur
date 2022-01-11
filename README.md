@@ -38,10 +38,12 @@ La liste des fichiers faisant partie du projet
 
 ## Démarrage du jeu
 
-Télécharger le dossier JeuDemineur et le mettre sur le bureau.
+Télécharger le dossier Projet-D-mineur et le mettre sur le bureau.
 Dans un terminal exécutez les commandes suivantes pour lancer le jeu:
 
 cd Desktop
+
+cd Projet-D-mineur
 
 cd JeuDemineur
 
