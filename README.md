@@ -1,42 +1,56 @@
-# Projet-D-mineur
+# Démineur - Projet OC Informatique
+Gymnase de Chamblandes - 2022
 
-Notes :
+## Auteurs
 
-le code sera quasi toujours des fonctions
-Determiner ce dont nous allons avoir besoin:
--grille: avec des cases avec soit une valeure soit une bombe
-valeur = nombre de bombes qu'il y a a coté de cette place
+Thibault Moner-Banet
+Aiko Chappuis
 
-1. générer cette grille: une liste de liste (une liste imbriquée)
---> Fonction grille
+## Fichiers
 
-def grille(l, c)
+La liste des fichiers faisant partie du projet
 
-"""
-gènère une grille avec l lignes et c collones remplie de 0
-"""
-
-retourner grille
-
-hsrrhgouerhguh aroiurhgirg urhgoirhgeruhgweirg uwerhgwuhgweuohguwgoiwguwgwerhgeruhuehgoihguwergiwe gqgierhuwer  
-
-dadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodudadedidodu
-
-dedededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededededede
-
-
-
-
-
-
-
-
-
-
-
-
-
+ * README.md
+ * LICENSE
+ * JournalDeBordDemineur.ipynb
+ * Play.py
+ * ModuleInterfaceGraphique.py
+ * GrilleDemineur.gif
+ * CacheCase.gif
+ * UN.gif
+ * DEUX.gif
+ * TROIS.gif
+ * QUATRE.gif
+ * CINQ.gif
+ * SIX.gif
+ * SEPT.gif
+ * HUIT.gif
+ * BombeN.gif
+ * BombeR.gif
+ * BombeTrouvee.gif
+ * DrapeauM.gif
+ * DrapeauV.gif
+ * CadreGagner.gif
+ * CadrePerdu.gif
+ * Chargement.gif
+ 
 
 
-Ne jetez pas le jus des cornichons, il va très bien dans les pates our donner du gout.
-J'ai faim ogiu432og84nug3498zgn3983bz4og98jzseiohjtireszh98zhoaejtéserjmzow4u09
+## Démarrage du jeu
+
+Télécharger le dossier JeuDemineur et le mettre sur le bureau.
+Dans un terminal exécutez les commandes suivantes pour lancer le jeu:
+
+cd Desktop
+
+cd JeuDemineur
+
+python Play.py
+
+Commande pour jouer:
+
+r = révéler une case
+
+f = placer ou retirer un drapeau
+
+q = quitter le jeu
